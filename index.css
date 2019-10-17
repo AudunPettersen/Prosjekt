@@ -43,3 +43,8 @@ ul.topnav li.right {float: right;}
     height: 100vh;
     background-color: gray;
 }
+
+#top>img {
+    position: absolute;
+    width: 100%;
+}
