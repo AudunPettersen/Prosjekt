@@ -27,7 +27,7 @@ body {
   }
   
   ul.topnav li a.active {
-    background-color: #4CAF50;
+    background-color: #333;
   }
   
   ul.topnav li.right {
@@ -60,7 +60,7 @@ body {
 
 #top {
   background-color: white;
-  height: 100vh;
+  height: 110vh;
 }
 
 #mid {
@@ -79,3 +79,28 @@ body {
   top: 28%;
   position: absolute;
 }
+
+#prosessor {
+  right: 32%;
+  top: 48%;
+  position: absolute;
+}
+
+#tekst2 {
+  right: 2%;
+  position: absolute;
+  top: 55%;
+}
+
+#batteri {
+  right: 27%;
+  position: absolute;
+  top: 73%;
+}
+
+#liste {
+  right: 14%;
+  position: absolute;
+  top: 80%;
+}
+

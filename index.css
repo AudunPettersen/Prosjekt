@@ -27,7 +27,7 @@ ul.topnav li a:hover:not(.active) {
 }
 
 ul.topnav li a.active {
-  background-color: #4CAF50;
+  background-color: #333(255, 0, 0)(138, 117, 117);
 }
 
 ul.topnav li.right {
@@ -110,4 +110,17 @@ body {
     }
 }
 
+#watch {
+  height: 80vh;
+  background-color: aliceblue;
+}
 
+#omapple {
+  height: 80vh;
+}
+
+#kontaktoss {
+  height: 40vh;
+  background-color: black;
+}
+ 
