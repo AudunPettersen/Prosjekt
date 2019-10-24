@@ -42,4 +42,25 @@ body {
 
 body {
     font-family: sans-serif;
+    background-color: black;
+    color: white;
 }
+
+h1 {
+  position: absolute;
+  left: 30px;
+}
+
+p {
+  position: absolute;
+  left: 30px;
+  top: 100px;
+}
+
+div>img {
+  width: 60%;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
