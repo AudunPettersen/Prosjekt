@@ -1,4 +1,6 @@
-body {margin: 0;}
+body {
+  margin: 0;
+}
 
 ul.topnav {
   list-style-type: none;
@@ -8,7 +10,9 @@ ul.topnav {
   background-color: #333;
 }
 
-ul.topnav li {float: left;}
+ul.topnav li {
+  float: left;
+}
 
 ul.topnav li a {
   display: block;
@@ -18,33 +22,92 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+}
 
-ul.topnav li a.active {background-color: #4CAF50;}
+ul.topnav li a.active {
+  background-color: #4CAF50;
+}
 
-ul.topnav li.right {float: right;}
+ul.topnav li.right {
+  float: right;
+}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+  ul.topnav li.right, ul.topnav li {
+    float: none;
+  }
 }
 
 #top {
-    height: 100vh;
-    background-color: black;
+  height: 90vh;
+  background-color: black;
 }
 
 #mid {
-    height: 100vh;
-    background-color: white;
+  height: 100vh;
+  background-color: white;
 }
 
 #bot {
-    height: 100vh;
-    background-color: gray;
+  height: 100vh;
+  background-color: gray;
 }
 
 #top>img {
-    position: absolute;
-    width: 100%;
+  position: absolute;
+  width: 100%;
+  top: 350px;
+  right: 0px;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+#tittel2 {
+  color: white;
+  width: 100%;
+  top: 28%;
+  position: absolute;
+  left: 300px;
+  font-size: 35px;
+  overflow: hidden;
+}
+
+#tittel1 {
+  color: white;
+  width: 100%;
+  top: 11%;
+  position: absolute;
+  left: 470px;
+  font-size: 60px;
+  overflow: hidden;
+}
+
+#modell {
+  position: absolute;
+  width: 50%;
+}
+
+
+#bak {
+  position: absolute;
+  width: 50%;
+  right: 0%;
+  top: 126.3%;
+}
+
+#tittel1, #tittel2 {
+  display: block;
+}
+@media (max-width: 600px) 
+{
+  #tittel1, #tittel2
+    {
+        display: none;
+    }
+}
+
+
