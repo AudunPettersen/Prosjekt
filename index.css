@@ -52,7 +52,7 @@ ul.topnav li.right {
 
 #bot {
   height: 100vh;
-  background-color: gray;
+  background-color: rgb(223, 215, 215);
 }
 
 #top>img {
@@ -86,28 +86,14 @@ body {
   overflow: hidden;
 }
 
-#modell {
-  position: absolute;
-  width: 50%;
-}
-
-
-#bak {
-  position: absolute;
-  width: 50%;
-  right: 0%;
-  top: 126.3%;
-}
-
 #tittel1, #tittel2 {
   display: block;
 }
-@media (max-width: 600px) 
-{
-  #tittel1, #tittel2
-    {
-        display: none;
-    }
+
+@media (max-width: 600px) {
+  #tittel1, #tittel2 {
+    display: none;
+  }
 }
 
 #watch {
@@ -123,4 +109,25 @@ body {
   height: 40vh;
   background-color: black;
 }
- 
+
+#mac {
+  position: absolute;
+  width: 100%;
+  top: 105%;
+}
+
+#ipadp {
+  position: absolute;
+  top: 173%;
+  right: 20%;
+}
+
+
+#watchbilde {
+  position: absolute;
+  top: 300%;
+  right: 35%;
+}
+
+
+
