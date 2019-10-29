@@ -58,7 +58,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-@keyframes slide {
+@keyframes rslide {
   0% { left:-1000px; top: 80px;}
   100% {left: 20px; top: 80px;}
 }
