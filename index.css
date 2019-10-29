@@ -55,7 +55,7 @@ ul.topnav li.right {
   background-color: rgb(223, 215, 215);
 }
 
-#top>img {
+#top>a {
   position: absolute;
   width: 100%;
   top: 350px;
@@ -118,7 +118,7 @@ body {
 
 #ipadp {
   position: absolute;
-  top: 173%;
+  top: 167%;
   right: 20%;
 }
 
@@ -130,4 +130,17 @@ body {
 }
 
 
+#bottomt {
+  color: white;
+  font-size: 50px;
+  right: 45%;
+  position: absolute;
+}
 
+
+#bottompic {
+  position: absolute;
+  right: 50%;
+  top: 393vh;
+  width: 150px;
+}
